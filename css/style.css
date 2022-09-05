@@ -1,0 +1,37 @@
+body{
+
+    background-color: #96D4D4;
+}
+
+
+.container{
+
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+
+.calculadora{
+    
+    background-color: rgb(49, 49, 49);
+    width: 400px;
+    height: 500px;
+}
+
+.visor{
+    
+
+    top: 30%;
+    position: absolute;
+    background-color: #988e74;
+    width: 350px;
+    height: 90px;
+    font-size: 50pt;
+
+}

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: fontevisor;
+    src: url(/fontes/Calculator.ttf);
+}
+
+body{
+
+    background-color: #96D4D4;
+}
+
+
+
+.cont{
+
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+
+.calculadora{
+    
+    background-color: rgb(49, 49, 49);
+    width: 400px;
+    height: 500px;
+}
+
+.visor{
+    
+    font-family: fontevisor;
+    top: 7%;    
+    background-color: #988e74;
+    width: 350px;
+    height: 90px;
+    left: 24px;
+    font-size: 50pt;
+    position: relative;
+    
+    
+}
+
+.grade{
+    padding: 0px;
+    display: block;
+    display: flex;
+    top: 30%;
+    justify-content: center;
+
+
+}
+
+.digitos{
+    padding: 10px;
+    font-size: 50pt;
+}
