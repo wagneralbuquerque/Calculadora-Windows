@@ -4,50 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="style.css" />
-
     <script src="calcula.js"></script>
     <title>Calculadora</title>
   </head>
 
   <body>
-    <div class="cont">
-      <div class="calculadora">
-        <input class="visor" />
+        
+    
+    
+    <div class="visor"><p></p></div>
 
-        <div class="digitos">
-          <button type="button" class="digit"><p>0</p></button>
-          <button type="button" class="digit"><p>1</p></button>
-          <button type="button" class="digit"><p>2</p></button>
-          <button type="button" class="digit"><p>3</p></button>
-          <button type="button" class="digit"><p>4</p></button>
-          <button type="button" class="digit"><p>5</p></button>
-          <button type="button" class="digit"><p>6</p></button>
-          <button type="button" class="digit"><p>7</p></button>
-          <button type="button" class="digit"><p>8</p></button>
-          <button type="button" class="digit"><p>9</p></button>
-          
-          <button type="button" class="digit"><p>+</p></button>
-          <button type="button" class="digit"><p>-</p></button>
-          <button type="button" class="digit"><p>%</p></button>
-          <button type="button" class="digit"><p>=</p></button>
-        </div>
-      </div>
-    </div>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
+    
+          <div class="gridDigitos">
+          <button type="button" class="digit" onclick = "insere('0')"><p>0</p></button>
+          <button type="button" class="digit" onclick = "insere('1')"><p>1</p></button>
+          <button type="button" class="digit" onclick = "insere('2')"><p>2</p></button>
+          <button type="button" class="digit" onclick = "insere('3')"><p>3</p></button>
+          <button type="button" class="digit" onclick = "insere('4')"><p>4</p></button>
+          <button type="button" class="digit" onclick = "insere('5')"><p>5</p></button>
+          <button type="button" class="digit" onclick = "insere('6')"><p>6</p></button>
+          <button type="button" class="digit" onclick = "insere('7')"><p>7</p></button>
+          <button type="button" class="digit" onclick = "insere('8')"><p>8</p></button>
+          <button type="button" class="digit" onclick = "insere('9')"><p>9</p></button>          
+          <button type="button" class="digit" onclick = "insere('+')"><p>+</p></button>
+          <button type="button" class="digit" onclick = "insere('-')"><p>-</p></button>
+          <button type="button" class="digit" onclick = "insere('%')"><p>%</p></button>
+          <button type="button" class="digit" onclick = "calcular()"><p>=</p></button>
+          <button type="button" class="digit" onclick = "limpa('')"><p>C</p></button>
+          </div>
+
     <script src="/js/calcula.js"></script>
   </body>
 </html>
